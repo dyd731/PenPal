@@ -2,16 +2,16 @@ package com.devin.penpal;
 
 public class inData
 {
-    private String eTime;
-    private String ax;
-    private String ay;
-    private String az;
-    private String gx;
-    private String gy;
-    private String gz;
-    private String cpt;
+    private int eTime;
+    private float ax;
+    private float ay;
+    private float az;
+    private float gx;
+    private float gy;
+    private float gz;
+    private int cpt;
 
-    public inData(String eTime, String ax, String ay, String az, String gx, String gy, String gz, String cpt)
+    public inData(int eTime, float ax, float ay, float az, float gx, float gy, float gz, int cpt)
     {
         this.eTime = eTime;
         this.ax = ax;
@@ -23,82 +23,82 @@ public class inData
         this.cpt = cpt;
     }
 
-    public void seteTime(String eTime)
+    public void seteTime(int eTime)
     {
         this.eTime = eTime;
     }
 
-    public void setAx(String ax)
+    public void setAx(float ax)
     {
         this.ax = ax;
     }
 
-    public void setAy(String ay)
+    public void setAy(float ay)
     {
         this.ay = ay;
     }
 
-    public void setAz(String az)
+    public void setAz(float az)
     {
         this.az = az;
     }
 
-    public void setGx(String gx)
+    public void setGx(float gx)
     {
         this.gx = gx;
     }
 
-    public void setGy(String gy)
+    public void setGy(float gy)
     {
         this.gy = gy;
     }
 
-    public void setGz(String gz)
+    public void setGz(float gz)
     {
         this.gz = gz;
     }
 
-    public void setCpt(String cpt)
+    public void setCpt(int cpt)
     {
         this.cpt = cpt;
     }
 
-    public String geteTime()
+    public float geteTime()
     {
         return eTime;
     }
 
-    public String getAx()
+    public float getAx()
     {
         return ax;
     }
 
-    public String getAy()
+    public float getAy()
     {
         return ay;
     }
 
-    public String getAz()
+    public float getAz()
     {
         return az;
     }
 
-    public String getGx()
+    public float getGx()
     {
         return gx;
     }
 
-    public String getGy()
+    public float getGy()
     {
         return gy;
     }
 
-    public String getGz()
+    public float getGz()
     {
         return gz;
     }
 
-    public String getCpt()
+    public int getCpt()
     {
         return cpt;
     }
