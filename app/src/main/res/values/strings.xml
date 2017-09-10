@@ -1,0 +1,17 @@
+<resources>
+    <!--Application Name-->
+    <string name="app_name">PenPal</string>
+
+    <!--Sidebar-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Three_Dot_Menu-->
+    <string name="action_settings">Settings</string>
+
+    <!--Bluetooth_Connection-->
+    <string name="button_connect">Connect</string>
+    <string name="button_disconnect">Disconnect</string>
+    <string name="title_devices">Devices</string>
+    <string name="scan">Scan</string>
+</resources>

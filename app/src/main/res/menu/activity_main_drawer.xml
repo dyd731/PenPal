@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navimport"
+            android:icon="@drawable/download"
+            android:title="Import" />
+        <item
+            android:id="@+id/info"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Information" />
+        <item
+            android:id="@+id/abus"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="About Us" />
+        <item
+            android:id="@+id/bluecon"
+            android:icon="@drawable/bluetooth"
+            android:title="Connection" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Main Activity-->
+    <color name="colorPrimary">#00bcd3</color>
+    <color name="colorPrimaryDark">#0097a6</color>
+    <color name="colorAccent">#00838f</color>
+
+    <!--Sidebar-->
+    <color name="sidebar_rect">#45d0e0</color>
+</resources>
